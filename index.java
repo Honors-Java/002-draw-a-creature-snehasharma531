@@ -25,11 +25,10 @@ void draw() {
    stroke(0);
    rect(132,108,10,8);
    rect(162,108,10,8);
-   //snow nose 
-   stroke(100);
-   line(145,125,152,125,);
-   line(145,125,148,134);
-   line(152,125,148,134);
+   //snow nose using tiangle
+   stroke(100)
+   triangle(146,123,160,123,150,132);
+ 
    //snow legs
    fill(52,235,255);
    stroke(0)
@@ -39,8 +38,10 @@ void draw() {
    stroke(0,0,255);
    line(90,186,65,220);
    line(208,180,240,215);
-   
-   
+   //ceated snow ear using triangle 
+   fill(214,25,89);
+  triangle(125,95,126,75,138,86);
+   triangle(150,85,158,70,165,86);
    
   
   
